@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <main>
+        <form action="fin-formulario.js" method="POST">
+            <label for="Nombre">Nombre</label><br>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre..."><br><br>
+
+
+            <label for="Apellido">Apellido</label><br>
+            <input type="text" name="Apellido" id="Apellido" placeholder="Apellido..."><br><br>
+
+
+            <label for="Email">Email</label><br>
+            <input type="email" name="Email" id="Email" placeholder="nombre@gmail.com"><br><br>
+
+
+            <label for="Password">Password</label><br>
+            <input type="password" name="Password" id="Password"><br><br>
+            <label for="Password-R">Repeat password</label><br>
+            <input type="password" name="Password-R" id="Password-R"><br><br>
+            <label for="Telefono">Telefono</label><br>
+            <input type="tel" name="Telefono" id="Telefono" placeholder="960108506" maxlength="9" minlength="7"><br><br>
+            <label for="fNacimiento">Cumpleaños</label><br>
+            <input type="date" name="fNacimiento" id="fNacimiento"><br><br>
+            <h3>Sexo</h3>
+            <input type="radio" name="Sexo" id="Masculino" value="masculino">
+            <label for="Masculino">Masculino</label><br>
+            <input type="radio" name="Sexo" id="Femenino" value="femenino">
+            <label for="Femenino">Femenino</label><br><br>
+
+
+            <input type="file" name="FotoPerfil" id="FotoPerfil" accept="image/*">
+
+            <p>Selecciona tu universidad </p>
+            <select name="Universidades" id="Universidades">
+                    <option value="Villarreal">UNFV</option>
+                    <option value="Universidad de ingenieria">UNI</option>
+                    <option value="Vallejo">Vallejito</option>
+                    <option value="San Marcos" selected>San Marcos</option>
+                </select><br><br>
+
+
+            <p>Descripcion</p>
+            <textarea name="Descripcion" id="Descripcion" cols="30" rows="20">
+                    Hi my name is Renatto i am 24 years old...
+                </textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+
+
+</body>
+
+</html>
